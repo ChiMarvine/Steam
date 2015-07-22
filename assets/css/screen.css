@@ -2,8 +2,8 @@
 @import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 /* === Core Styles === */
 body {
-  background-color: #ffffff;
-  color: #596364; /* darker color */
+  background-color: #333;
+  color: #fff; /* darker color */
   font-size: 15px;
   font-weight: 100;
   line-height: 1.6em;
@@ -56,7 +56,7 @@ li {
 }
 pre {
   font-family: Menlo, "Consolas", Courier, monospace;
-  color: #596364;
+  color: #fff;
   font-size: 1em;
   line-height: 1.2em;
   padding: 1em;
@@ -71,7 +71,7 @@ pre {
 code {
   font-family: Menlo, "Consolas", Courier, monospace;
   font-size: 0.85em;
-  color: #596364;
+  color: #fff;
   background-color: #f7f7f7;
   padding: 2px 4px;
   line-height: 1.2em;
@@ -92,7 +92,7 @@ kbd {
       0 1px 0 0 #fff inset;
 }
 h1 {
-  color: #151515;
+  color: #fff;
   font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -135,7 +135,7 @@ article.preview p.readmore {
   -webkit-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
-  background-color: #ffffff;
+  background-color: #333;
 }
 h1.blog-title,
 h2.blog-description {
@@ -235,7 +235,7 @@ blockquote {
   padding-left: 1em;
 }
 .post-meta {
-  color: #95a5a6;
+  color: #777;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -261,7 +261,7 @@ h1.post-title {
 }
 h1.post-title a,
 h1.blog-title a {
-  color: #151515;
+  color: #fff;
   transition: color ease 0.7s;
   -webkit-transition: color ease 0.7s;
 }
@@ -388,7 +388,7 @@ a.archive-link {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
-  color: #596364;
+  color: #fff;
   text-align: center;
   padding: 0.5em 0;
 }
@@ -605,7 +605,7 @@ p.backtotop {
 
 a.excerptlink,
 a.backtotoptext {
-  color: #596364;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -636,7 +636,7 @@ hr {
 }
 
 .site-footer {
-  color: #899596;
+  color: #777;
 }
 
 section.footer-social {
@@ -675,7 +675,7 @@ h1.posts-tagged {
   text-align: center;
   max-width: 600px;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  color: #596364;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
